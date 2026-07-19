@@ -29,7 +29,7 @@ st.set_page_config(
 
 BASE_DIR = Path(__file__).resolve().parent
 
-DATA_PATH = BASE_DIR / "data" / "market_scope_industry1.xlsx"
+DATA_PATH = BASE_DIR /  "market_scope_industry1.xlsx"
 
 
 @st.cache_data
